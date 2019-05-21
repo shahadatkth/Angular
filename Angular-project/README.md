@@ -1,1 +1,1 @@
-# Angular
+# Angular user registration project
