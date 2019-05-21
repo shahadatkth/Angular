@@ -1,0 +1,20 @@
+﻿<h1>Hi {{currentUser.firstName}}!</h1>
+<p>Welcome to adssets!!!!!</p>
+<h3>Your details here:</h3>
+<div>
+    <span *ngIf='user'>
+        Name: {{user.firstName}} {{user.lastName}}
+    </span>
+    <br/>
+    <span *ngIf='user'>
+        Email: {{user.email}}
+    </span>
+    <br/>
+    <span *ngIf='user'>
+        Username: {{user.username}}
+
+    </span>
+
+
+</div>
+
