@@ -1,0 +1,176 @@
+.input-container {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center; 
+    width: 100%;
+    font-family:museo_sans300;
+}
+.input-field {
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  font-family:museo_sans300;
+}
+
+.google-place-input {
+    font-family:museo_sans300;
+    width: 20%;
+    min-width: 280px;
+    height: 2.3rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-right:2px;
+    border: 1px solid #cccccc;
+}
+.city-container {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  font-family:museo_sans300;
+}
+
+@media (min-width: 1024px){
+  .city-font {
+    margin-top: -25px;
+    font-family: museo_sans500;
+    color: white;
+  }
+  .google-place-city {
+    list-style: none;
+    background-color: #002856;
+    font-family:museo_sans300;
+    width: 100%;
+    height:130px;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid #cccccc;
+
+  }
+  .temp-font{
+    text-align: center;
+    font-size: 35px
+
+  }
+  .city-country-font{
+    text-align: center;
+    font-size: 12px
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  .city-font{
+    margin-top:-15px;
+    font-family: museo_sans500;
+    color:white;
+  }
+  .google-place-city {
+    list-style: none;
+    background-color: #002856;
+    font-family:museo_sans300;
+    width: 100%;
+    height:160px;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid #cccccc;
+  }
+  .temp-font{
+    text-align: center;
+    font-size: 35px
+
+  }
+  .city-country-font{
+    text-align: center;
+    font-size: 12px
+  }
+
+}
+@media only screen and (max-width: 767px) and (min-width: 576px){
+  .city-font{
+    margin-left:-43px;
+    margin-top:57px;
+    font-family: museo_sans500;
+    color:white;
+  }
+  .google-place-city {
+    list-style: none;
+    background-color: #002856;
+    font-family:museo_sans300;
+    width: 100%;
+    height:220px;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid #cccccc;
+  }
+  .temp-font{
+    text-align: center;
+    font-size: 30px
+
+  }
+  .city-country-font{
+    text-align: center;
+    font-size: 12px
+  }
+
+}
+@media only screen and (max-width: 575px) and (min-width: 320px){
+  .city-font{
+    margin-top:-15px;
+    font-family: museo_sans500;
+    color:white;
+  }
+  .google-place-city {
+    list-style: none;
+    background-color: #002856;
+    font-family:museo_sans300;
+    width: 100%;
+    height:200px;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid #cccccc;
+  }
+  .city-mobile{
+    text-align: center;
+  }
+  .temp-font{
+    text-align: center;
+    font-size: 35px
+
+  }
+  .city-country-font{
+    text-align: center;
+    font-size: 12px
+  }
+
+}
+
+.city-area{
+  float: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+.btn-circle-custom {
+  background-color:#ffffff;
+  width: 20px;
+  height: 20px;
+  padding: 0px 0px;
+  border-radius: 25px;
+  font-size: 1rem;
+  z-index: 99999 !important;
+}
+.cloud-icon{
+
+  height:100%;
+  width:auto;
+}
+.cloud-temp{
+  float: right;
+  top:0px;
+  right:0px;
+  height:50%;
+  width:auto;
+}
+
